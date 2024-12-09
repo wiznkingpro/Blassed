@@ -30,7 +30,6 @@ body{
 	min-height: 600px;
 	border-radius: 5px;
 	margin: 0px auto;
-	box-shadow: 0px 0px 15px silver;
 	background-color: white;
 	transition: 0.5s;
 }
@@ -298,7 +297,6 @@ span p{
 	height: 600px;
 	border-radius: 5px;
 	margin: 0px auto;
-	box-shadow: 0px 0px 15px silver;
 	background-color: white;
 	transition: 0.5s;
 }
