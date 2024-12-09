@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="assets/css/index.css">
+	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100&icon_names=favorite,home,search,settings" rel="stylesheet" />
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<div class="header_back">
+				<img src="assets/img/back.svg" alt="">
+				<p>Krypton Profil</p>
+			</div>
+			<img src="assets/img/search.svg" alt="">
+		</nav>
+		<header>
+			<div class="avatar">
+				<img src="https://avatars.yandex.net/get-music-content/4467280/928047f1.a.15488562-1/m1000x1000?webp=false" alt="">
+				<p>Online</p>
+			</div>
+		</header>
+		<content>
+			<h3>Krypton</h3>
+			<div class="desc">
+				<p>☁️ Welcome my cloud ☁️</p>
+
+			</div>
+			<div class="items">
+				<button class="addFriend" id="addFriend">
+					<img src="assets/img/user-white.png" alt="">
+					<p id="friendButton">Add Friend</p>
+				</button>
+				<a href="message.html" style="text-decoration: none;">
+					<button class="message">
+						<img src="assets/img/message.png" alt="">
+						<p>Message</p>
+					</button>
+				</a>
+				<button class="addBut">
+					<p>...</p>
+				</button>
+			</div>
+
+			<div class="interests">
+				<span>
+					<img src="assets/img/cloud.svg" alt="">
+					<p>kryptonaIt@icloud.com</p>
+				</span>
+				<span>
+					<img src="assets/img/love.svg" alt="">
+					<p>Sonya Hogai (17y.o)</p>
+				</span>
+				<span>
+					<img src="assets/img/game.svg" alt="">
+					<p>Dota 2 (3090h)</p>
+				</span>
+			</div>
+			<div class="forever_music">
+				<img src="assets/img/play2.jpg" alt="">
+				<div>
+					<p>Пошлая Молли</p>
+					<p2>Стрип Клаб</p2>
+				</div>
+				
+			</div>
+			<div class="gallery_cont">
+					<div class="gallery">
+						<img src="assets/img/gallery1.jpg" alt="">
+						<img src="assets/img/gallery1.jpg" alt="">
+						<img src="assets/img/gallery1.jpg" alt="">
+					</div>
+				<p>more 20 photos</p>
+			</div>
+		</content>
+
+	</div>
+		
+<script>
+    document.getElementById("addFriend").addEventListener("click", () => {
+  			const pElement = document.getElementById('friendButton'); // Получаем элемент <p>
+    pElement.innerText = 'Added Friend';
+		});
+</script>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
